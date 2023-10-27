@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body style="background-color: azure; color: black;">
+<form action="/register.js" method="get">
+    <h2>SignIn Form</h2>
+    <label for="Email Id">Email Id</label>
+    <input type="Email Id" placeholder="enter your Email Id" name="Email Id" id="Email Id" required
+    oninvalid="setCustomValidity('please enter your Email Id.')"><br><br>
+    <label for="password">password</label>
+    <input type="password" placeholder="enter your password" name="password" id="password" required
+    oninvalid="setCustomValidity('please enter your password.')"><br><br>
+    <input type="submit" value="Sign In">
+</form>    
+</body>
+</html>
